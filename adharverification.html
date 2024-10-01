@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aadhaar Verification</title>
+    <link rel="stylesheet" href="adhar.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Aadhaar Number Verification</h2>
+        <form id="aadhaarForm">
+            <label for="aadhaar">Enter Aadhaar Number:</label>
+            <input type="text" id="aadhaar" name="aadhaar" maxlength="12" placeholder="Enter 12 digit Aadhaar number" required>
+            <small id="error-msg" class="error"></small>
+            <button type="submit">Verify</button>
+        </form>
+        <p id="result"></p>
+    </div>
+    <script src="adhar.js"></script>
+</body>
+</html>

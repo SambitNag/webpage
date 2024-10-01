@@ -1,0 +1,13 @@
+body{
+    background-color:rgba(187, 120, 12, 0.721);
+}
+#box{
+    background-color: rgb(171, 186, 33);
+    color: rgb(2, 23, 13);
+}
+*{
+    color:rgb(26, 4, 22)
+}
+button{
+    background-color:rgb(225, 241, 10);
+}
